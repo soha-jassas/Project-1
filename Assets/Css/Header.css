@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Adobe;
+    src: url(../Media/Font/Adobe/AGaramondPro-Bold.eot);
+    src: url(../Media/Font/Adobe/AGaramondPro-Bold.woff);
+    src: url(../Media/Font/Adobe/AGaramondPro-Bold.woff2);
+    src: url(../Media/Font/Adobe/AGaramondPro-Bold.ttf);
+}
+
+@font-face {
+    font-family: Yekan;
+    src: url(../Media/Font/Yekan/YekanBakhFaNum-Bold.eot);
+    src: url(../Media/Font/Yekan/YekanBakhFaNum-Bold.woff);
+    src: url(../Media/Font/Yekan/YekanBakhFaNum-Bold.woff2);
+    src: url(../Media/Font/Yekan/YekanBakhFaNum-Bold.ttf);
+}
+
+@font-face {
+    font-family: Estedad;
+    src: url(../Media/Font/Estedad/Black/Estedad-Black.eot);
+    src: url(../Media/Font/Estedad/Black/Estedad-Black.woff);
+    src: url(../Media/Font/Estedad/Black/Estedad-Black.woff2);
+    src: url(../Media/Font/Estedad/Black/Estedad-Black.ttf);
+}
+
+@font-face {
+    font-family: Estedad-Light;
+    src: url(../Media/Font/Estedad/Light/Estedad-Light.eot);
+    src: url(../Media/Font/Estedad/Light/Estedad-Light.woff);
+    src: url(../Media/Font/Estedad/Light/Estedad-Light.woff2);
+    src: url(../Media/Font/Estedad/Light/Estedad-Light.ttf);
+}
+
+:root {
+    --font-family-Adobe: Adobe;
+    --font-family-Yekan: Yekan;
+    --font-family-Estedad: Estedad;
+    --font-family-Estedad-Light: Estedad-Light;
+    --font-size-70: 70px;
+    --color-white: #FFFFFF;
+}
+
+body.Home {
+    background-image: url(../Media/Image/Background.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+}
+
+body.Facilities{
+    background-image: url(../Media/Image/Background-2.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+}
+
+body.Rooms{
+    background-image: url(../Media/Image/Background-3.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+header>div.upper-part>div.upper{
+    width: inherit;
+    text-align: center;
+    margin: 30px auto;
+}
+
+header>div.upper-part>div.upper>h1{
+    font-family: var(--font-family-Estedad);
+    font-size: var(--font-size-70);
+    font-weight: 800;
+    color: var(--color-white);
+}
+
+header>div.upper-part,
+div.upper-center,
+div.upper-right {
+    width: inherit;
+    height: 154px;
+}
+
+header>div.upper-part>div.upper-left {
+    width: 257px;
+    height: 150px;
+    background-color: #E0B973;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 76.51%;
+    bottom: 95.24%;
+    right: 10.16%;
+}
+
+header>div.upper-part>div.upper-left>h1 {
+    width: inherit;
+    line-height: 48px;
+    font-family: var(--font-family-Adobe);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 0.15em;
+    color: #14274A;
+    position: absolute;
+    top: 22.17%;
+    left: 0.72%;
+}
+
+header>div.upper-part>div.upper-left>span {
+    width: inherit;
+    line-height: 18px;
+    font-family: var(--font-family-Adobe);
+    font-size: 15px;
+    letter-spacing: 0.6em;
+    color: #14274A;
+    position: absolute;
+    top: 55.58%;
+    left: 0.85%;
+
+}
+
+header>div.upper-part>div.upper-center>nav,
+header>div.upper-part>div.upper-center>nav>ul {
+    width: inherit;
+    height: inherit;
+}
+
+header>div.upper-part>div.upper-center>nav>ul>li {
+    display: inline-block;
+    margin: 20px;
+    font-style: normal;
+}
+
+header>div.upper-part>div.upper-center>nav>ul>li>a {
+    line-height: 30px;
+    text-decoration: none;
+    font-family: var(--font-family-Yekan);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    color: var(--color-white);
+}
+
+header>div.upper-part>div.upper-center>nav>ul>li>a>i    {
+    padding: 5px;
+    font-size: 22px;
+}
+
+header>div.upper-part>div.upper-center>nav>ul>li:nth-child(1) {
+    position: absolute;
+    top: 8%;
+    left: 13.71%;
+}
+
+header>div.upper-part>div.upper-center>nav>ul>li:nth-child(2) {
+    position: absolute;
+    top: 8%;
+    left: 31.48%;
+}
+
+header>div.upper-part>div.upper-center>nav>ul>li:nth-child(3) {
+    position: absolute;
+    top: 8%;
+    left: 45.56%;
+}
+
+header>div.upper-part>div.upper-center>nav>ul>li:nth-child(4) {
+    position: absolute;
+    top: 8%;
+    left: 60.78%;
+}
+
+header>div.upper-part>div.upper-center>nav>ul>li:nth-child(1):hover,
+header>div.upper-part>div.upper-center>nav>ul>li:nth-child(2):hover,
+header>div.upper-part>div.upper-center>nav>ul>li:nth-child(3):hover,
+header>div.upper-part>div.upper-center>nav>ul>li:nth-child(4):hover{
+    top: 7%;
+}
+
+header>div.upper-part>div.upper-right>a {
+    width: 90px;
+    padding: 5px;
+    background-color: #14274A;
+    border: 4px solid #14274A;
+    border-radius: 8px;
+    color: var(--color-white);
+    text-decoration: none;
+    font-family: var(--font-family-Yekan);
+    font-size: 12px;
+    position: absolute;
+    top: 3%;
+    left: 40px;
+}
+
+header>div.middle-part {
+    width: 100%;
+    text-align: right;
+}
+
+header>div.middle-part>span.middle-top {
+    font-family: var(--font-family-Estedad);
+    font-style: normal;
+    font-weight: 900;
+    font-size: var(--font-size-70);
+    color: var(--color-white);
+    position: absolute;
+    top: 250px;
+    left: 1200px;
+}
+
+header>div.middle-part>h2 {
+    display: inline-block;
+    font-family: var(--font-family-Estedad);
+    font-style: normal;
+    font-weight: 900;
+    font-size: var(--font-size-70);
+    color: #14274A;
+    position: absolute;
+    top: 250px;
+    left: 1030px;
+}
+
+header>div.middle-part>span.middle-bottom {
+    font-family: var(--font-family-Estedad);
+    font-style: normal;
+    font-weight: 900;
+    font-size: var(--font-size-70);
+    color: var(--color-white);
+    position: absolute;
+    top: 380px;
+    left: 1065px;
+}
+
+header>div.middle-part>p {
+    font-family: var(--font-family-Estedad-Light);
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    color: var(--color-white);
+    position: absolute;
+    top: 510px;
+    left: 1040px;
+}
+
+header>div.middle-part>h3 {
+    display: inline-block;
+    font-family: var(--font-family-Estedad-Light);
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    color: var(--color-white);
+}
+
+header>div.middle-part>h3:nth-of-type(1) {
+    position: absolute;
+    top: 540px;
+    left: 1390px;
+}
+
+header>div.middle-part>h3:nth-of-type(2) {
+    position: absolute;
+    top: 540px;
+    left: 1250px;
+}
+
+header>div.middle-part>h3:nth-of-type(3) {
+    font-family: var(--font-family-Estedad);
+    font-size: 20px;
+    color: #14274A;
+    position: absolute;
+    top: 540px;
+    left: 1335px;
+}
+
+header>div.final-part {
+    width: 100%;
+}
+
+header>div.final-part>div{
+    width: 268px;
+    height: 80.84px;
+    display: inline-block;
+    background-color: #E0B973;
+    border-radius: 20px;
+    position: absolute;
+    top: 73.87%;
+    left: 40.02%;
+    text-align: right;
+}
+
+header>div.final-part>div>a{
+    text-decoration: none;
+    font-family: var(--font-family-Estedad);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    color: var(--color-white);
+    position: absolute;
+    top: 20px;
+    left:65px ;
+}
+
+header>div.final-part>div>a>img{
+    width: 35px;
+    position: absolute;
+    top: 2px ;
+    right:195px ;
+}
+
+header>div.final-part>a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--color-white);
+    position: absolute;
+    top: 660px;
+    left: 740px;
+}
+
+header>div.final-part>a>img{
+    width: 60px;
+    position: absolute;
+    top: 13px;
+    left: -10px;
+}
+

@@ -1,0 +1,222 @@
+@import url(./Assets/Css/Setting.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Adobe;
+    src: url(./Assets/Media/Font/Adobe/AGaramondPro-Bold.eot);
+    src: url(./Media/Font/Adobe/AGaramondPro-Bold.woff);
+    src: url(./Media/Font/Adobe/AGaramondPro-Bold.woff2);
+    src: url(./Media/Font/Adobe/AGaramondPro-Bold.ttf);
+}
+
+@font-face {
+    font-family: Yekan;
+    src: url(./Media/Font/Yekan/YekanBakhFaNum-Bold.eot);
+    src: url(./Media/Font/Yekan/YekanBakhFaNum-Bold.woff);
+    src: url(./Media/Font/Yekan/YekanBakhFaNum-Bold.woff2);
+    src: url(./Media/Font/Yekan/YekanBakhFaNum-Bold.ttf);
+}
+
+@font-face {
+    font-family: Estedad;
+    src: url(./Media/Font/Estedad/Black/Estedad-Black.eot);
+    src: url(./Media/Font/Estedad/Black/Estedad-Black.woff);
+    src: url(./Media/Font/Estedad/Black/Estedad-Black.woff2);
+    src: url(./Media/Font/Estedad/Black/Estedad-Black.ttf);
+}
+
+@font-face {
+    font-family: Estedad-Light;
+    src: url(./Media/Font/Estedad/Light/Estedad-Light.eot);
+    src: url(./Media/Font/Estedad/Light/Estedad-Light.woff);
+    src: url(./Media/Font/Estedad/Light/Estedad-Light.woff2);
+    src: url(./Media/Font/Estedad/Light/Estedad-Light.ttf);
+}
+
+:root {
+    --font-family-Adobe: Adobe;
+    --font-family-Yekan: Yekan;
+    --font-family-Estedad: Estedad;
+    --font-family-Estedad-Light: Estedad-Light;
+    --color-white: #FFFFFF;
+    --color-DarkBlue: #14274A;
+}
+
+main {
+    width: 100%;
+    height: 150vh;
+    position: relative;
+}
+
+main>div.upper-part {
+    width: inherit;
+}
+
+main>div.upper-part>p {
+    margin: 20px;
+    font-family: var(--font-family-Estedad);
+    font-style: normal;
+    font-weight: 200;
+    font-size: 25px;
+    color: var(--color-DarkBlue);
+    position: absolute;
+    top: 30px;
+    left: 480px;
+}
+
+main>div.final-part {
+    width: 100%;
+}
+
+main>div.final-part>div.final-top {
+    width: inherit;
+}
+
+main>div.final-part>div.final-top>h2 {
+    line-height: 72px;
+    font-family: var(--font-family-Estedad);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--color-DarkBlue);
+    position: absolute;
+    top: 13.45%;
+    left: 71.42%;
+}
+main>div.final-part>div.final-top>p{
+    display: inline-block;
+    text-align: right;
+    direction: rtl;
+    font-family: var(--font-family-Estedad-Light);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--color-DarkBlue);
+    position: absolute;
+    top:22%;
+    left: 55.5%;
+}
+
+
+main>div.final-part>div.final-top>img{
+    width: 600px;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+
+
+main>div.final-part>div.final-top>a{
+    width:100%;
+    text-decoration: none;
+    direction: rtl;
+    font-family: var(--font-family-Estedad);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    color: var(--color-white);
+}
+
+main>div.final-part>div.final-top>a>button{
+    width: 150px;
+    height: 50px;
+    background-color:#E0B973 ;
+    font-family: var(--font-family-Estedad);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--color-white);
+    border: 1px solid #E0B973;
+    border-radius: 8px;
+    position: absolute;
+    top:44% ;
+    left:83% ;
+}
+
+main>div.final-part>div.final-top>hr{
+    width: 5px;
+    height:340px ;
+    background-color: black;
+    position: absolute;
+    top: 15%;
+    left: 95%;
+}
+
+main>div.final-part>div.final-bottom{
+    width: inherit;
+}
+
+main>div.final-part>div.final-bottom>h2{
+    line-height: 72px;
+    font-family: var(--font-family-Estedad);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--color-DarkBlue);
+    position: absolute;
+    top: 62%;
+    left: 79%;
+}
+
+main>div.final-part>div.final-bottom>p{
+    display: inline-block;
+    text-align: right;
+    direction: rtl;
+    font-family: var(--font-family-Estedad-Light);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--color-DarkBlue);
+    position: absolute;
+    top:70.5%;
+    left: 57%;
+}
+
+main>div.final-part>div.final-bottom>img{
+    width: 606px;
+    height: 343px;
+    position: absolute;
+    top: 62%;
+    left: 147px;
+}
+
+main>div.final-part>div.final-bottom>a{
+    width:100%;
+    text-decoration: none;
+    direction: rtl;
+    font-family: var(--font-family-Estedad);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    color: var(--color-white);
+}
+
+main>div.final-part>div.final-bottom>a>button{
+    width: 150px;
+    height: 50px;
+    background-color:#E0B973 ;
+    font-family: var(--font-family-Estedad);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--color-white);
+    border: 1px solid #E0B973;
+    border-radius: 8px;
+    position: absolute;
+    top:87% ;
+    left:83% ;
+}
+
+main>div.final-part>div.final-bottom>hr{
+    width: 5px;
+    height:300px ;
+    background-color: black;
+    position: absolute;
+    top: 63%;
+    left: 95%;
+}

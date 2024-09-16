@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Adobe;
+    src: url(../Media/Font/Adobe/AGaramondPro-Bold.eot);
+    src: url(../Media/Font/Adobe/AGaramondPro-Bold.woff);
+    src: url(../Media/Font/Adobe/AGaramondPro-Bold.woff2);
+    src: url(../Media/Font/Adobe/AGaramondPro-Bold.ttf);
+}
+
+@font-face {
+    font-family: Yekan;
+    src: url(../Media/Font/Yekan/YekanBakhFaNum-Bold.eot);
+    src: url(../Media/Font/Yekan/YekanBakhFaNum-Bold.woff);
+    src: url(../Media/Font/Yekan/YekanBakhFaNum-Bold.woff2);
+    src: url(../Media/Font/Yekan/YekanBakhFaNum-Bold.ttf);
+}
+
+@font-face {
+    font-family: Estedad;
+    src: url(../Media/Font/Estedad/Black/Estedad-Black.eot);
+    src: url(../Media/Font/Estedad/Black/Estedad-Black.woff);
+    src: url(../Media/Font/Estedad/Black/Estedad-Black.woff2);
+    src: url(../Media/Font/Estedad/Black/Estedad-Black.ttf);
+}
+
+@font-face {
+    font-family: Estedad-Light;
+    src: url(../Media/Font/Estedad/Light/Estedad-Light.eot);
+    src: url(../Media/Font/Estedad/Light/Estedad-Light.woff);
+    src: url(../Media/Font/Estedad/Light/Estedad-Light.woff2);
+    src: url(../Media/Font/Estedad/Light/Estedad-Light.ttf);
+}
+
+:root {
+    --font-family-Adobe: Adobe;
+    --font-family-Yekan: Yekan;
+    --font-family-Estedad: Estedad;
+    --font-family-Estedad-Light: Estedad-Light;
+    --font-size-70: 70px;
+    --color-white: #FFFFFF;
+    --color-DarkBlue: #14274A;
+}
+
+footer{
+    width: 100%;
+    height: 75vh;
+    position: relative;
+}
+
+footer>div.upper-part{
+    width: inherit;
+}
+
+footer>div.upper-part>a{
+    font-family: var(--font-family-Estedad);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    text-decoration: none;
+    color: var(--color-DarkBlue);
+    position: absolute;
+    top:1% ;
+    left:45% ;
+}
+
+footer>div.upper-part>span{
+    font-family: var(--font-family-Estedad-Light);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--color-DarkBlue);
+    position: absolute;
+    top:13% ;
+    left:32.5% ;
+}
+
+footer>div.upper-part>h4{
+    font-family: var(--font-family-Estedad-Light);
+    font-style: normal;
+    font-weight:200;
+    font-size: 18px;
+    color: var(--color-DarkBlue);
+    position: absolute;
+    top:22% ;
+    left:47.5% ;
+}
+
+footer>div.upper-part>a.left{
+    position: absolute;
+    top: 32%;
+    left: 48%;
+}
+
+footer>div.upper-part>a.right{
+    position: absolute;
+    top:32.02% ;
+    left: 51.5%;
+}
+
+footer>div.upper-part>a.left>img,
+footer>div.upper-part>a.right>img{
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+footer>div.final-part{
+    width: inherit;
+}
+
+footer>div.final-part>div.triangle{
+        width: 0;
+        height: 0;
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+        border-bottom: 45px solid #14274A ;
+        border-top: 100px solid  transparent;
+        position: absolute;
+        top: 35%;
+        left: 44%;
+}
+
+footer>div.final-part>div.information{
+    width: 100%;
+    height: 200px;
+    background-color: var(--color-DarkBlue);
+    position: absolute;
+    top: 62.05%;
+}
+
+footer>div.final-part>div.information>div.first{
+    width: inherit;
+    
+}
+
+footer>div.final-part>div.information>div.first>h1{
+    font-family: var(--font-family-Adobe);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 0.15em;
+    color: var(--color-white);
+    position: absolute;
+    top: 15%;
+    right: 10%;
+}
+
+footer>div.final-part>div.information>div.first>h2{
+    width: inherit;
+    line-height: 18px;
+    font-family: var(--font-family-Adobe);
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 0.6em;
+    text-align: right;
+    color:var(--color-white);
+    position: absolute;
+    top: 37%;
+    right: 11.5%;
+}
+
+footer>div.final-part>div.information>div.first>h3{
+    width: inherit;
+    line-height: 18px;
+    font-family: var(--font-family-Estedad-Light);
+    font-weight: 100;
+    font-size: 14px;
+    text-align: right;
+    direction: rtl;
+    color:var(--color-white);
+    position: absolute;
+    top: 50%;
+    right: 10.5%;
+}
+
+footer>div.final-part>div.information>div.first>h4{
+    width: inherit;
+    line-height: 18px;
+    font-family: var(--font-family-Estedad-Light);
+    font-weight: 200;
+    font-size: 18px;
+    text-align: right;
+    color:var(--color-white);
+    position: absolute;
+    top: 67%;
+    right: 10.5%;
+}
+
+footer>div.final-part>div.information>div.first>h5{
+    width: inherit;
+    line-height: 18px;
+    font-family: var(--font-family-Estedad-Light);
+    font-weight: 200;
+    font-size: 18px;
+    text-align: right;
+    color:var(--color-white);
+    position: absolute;
+    top: 81%;
+    right: 10.5%;
+}
+
+footer>div.final-part>div.information>div.second{
+    width: inherit;
+    font-family: var(--font-family-Estedad-Light);
+    font-weight: 200;
+    font-size: 18px;
+    text-align: right;
+    color:var(--color-white);
+}
+
+footer>div.final-part>div.information>div.second>a{
+    text-decoration: none;
+    color:var(--color-white);
+    display: block;
+    padding: 5px;
+}
+
+footer>div.final-part>div.information>div.second>a.about{
+    position: absolute;
+    top:14% ;
+    right: 37%;
+}
+
+footer>div.final-part>div.information>div.second>a.contact{
+    position: absolute;
+    top:36% ;
+    right:37%;
+}
+
+footer>div.final-part>div.information>div.second>a.terms{
+    position: absolute;
+    top: 58%;
+    right: 37%;
+}
+
+footer>div.final-part>div.information>div.third{
+    width: inherit;
+    text-align: right;
+}
+
+footer>div.final-part>div.information>div.third>a{
+    text-decoration: none;
+    display: block;
+    color: var(--color-white);
+    font-family: var(--font-family-Estedad-Light);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+footer>div.final-part>div.information>div.third>a>i{
+    padding: 15px;
+    font-size: 16px;
+}
+
+footer>div.final-part>div.information>div.third>a.instagram{
+    position: absolute;
+    top: 13%;
+    left: 32%;
+}
+
+footer>div.final-part>div.information>div.third>a.facebook{
+    position: absolute;
+    top: 35%;
+    left: 32%;
+}
+
+footer>div.final-part>div.information>div.third>a.twitter{
+    position: absolute;
+    top: 57%;
+    left: 32%;
+}
+
+footer>div.final-part>div.information>div.fourth{
+    width: inherit;
+    direction: rtl;
+}
+
+footer>div.final-part>div.information>div.fourth>span{
+    font-family: var(--font-family-Estedad-Light);
+    font-weight: 200;
+    font-size: 18px;
+    color: var(--color-white);
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+
+footer>div.final-part>div.information>div.fourth>form{
+    width: 100%;
+}
+
+footer>div.final-part>div.information>div.fourth>form>input:nth-of-type(1){
+    width: 198px;
+    height: 35px;
+    background-color: var(--color-DarkBlue);
+    border: 3px solid #E0B973;
+    color: #ffffff;
+    border-radius: 2px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    padding-left: 20px;
+    text-align:left;
+}
+
+footer>div.final-part>div.information>div.fourth>form>input:nth-of-type(2){
+    width: 50px;
+    height: 35px;
+    background-color: #E0B973;
+    border: 3px solid #E0B973;
+    border-radius: 2px;
+    font-family: var(--font-family-Estedad-Light);
+    font-size: 16px;
+    color: var(--color-DarkBlue);
+    position: absolute;
+    top: 50%;
+    left: 17.96%;
+}

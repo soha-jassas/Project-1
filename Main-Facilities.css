@@ -1,0 +1,162 @@
+@import url(./Assets/Css/Setting.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Adobe;
+    src: url(./Assets/Media/Font/Adobe/AGaramondPro-Bold.eot);
+    src: url(./Media/Font/Adobe/AGaramondPro-Bold.woff);
+    src: url(./Media/Font/Adobe/AGaramondPro-Bold.woff2);
+    src: url(./Media/Font/Adobe/AGaramondPro-Bold.ttf);
+}
+
+@font-face {
+    font-family: Yekan;
+    src: url(./Media/Font/Yekan/YekanBakhFaNum-Bold.eot);
+    src: url(./Media/Font/Yekan/YekanBakhFaNum-Bold.woff);
+    src: url(./Media/Font/Yekan/YekanBakhFaNum-Bold.woff2);
+    src: url(./Media/Font/Yekan/YekanBakhFaNum-Bold.ttf);
+}
+
+@font-face {
+    font-family: Estedad;
+    src: url(./Media/Font/Estedad/Black/Estedad-Black.eot);
+    src: url(./Media/Font/Estedad/Black/Estedad-Black.woff);
+    src: url(./Media/Font/Estedad/Black/Estedad-Black.woff2);
+    src: url(./Media/Font/Estedad/Black/Estedad-Black.ttf);
+}
+
+@font-face {
+    font-family: Estedad-Light;
+    src: url(./Media/Font/Estedad/Light/Estedad-Light.eot);
+    src: url(./Media/Font/Estedad/Light/Estedad-Light.woff);
+    src: url(./Media/Font/Estedad/Light/Estedad-Light.woff2);
+    src: url(./Media/Font/Estedad/Light/Estedad-Light.ttf);
+}
+
+:root {
+    --font-family-Adobe: Adobe;
+    --font-family-Yekan: Yekan;
+    --font-family-Estedad: Estedad;
+    --font-family-Estedad-Light: Estedad-Light;
+    --color-white: #FFFFFF;
+    --color-DarkBlue: #14274A;
+    --left-33:33%
+}
+
+main {
+    width: 100%;
+    height: 640vh;
+    position: relative;
+}
+
+main>div.content{
+    width: inherit;
+    height: inherit;
+}
+
+main>div.content>div.comment{
+    width: inherit;
+    height: 30vh;
+}
+
+main>div.content>div.comment>h2{
+    font-family: var(--font-family-Estedad);
+    font-weight: 600;
+    font-size: 50px;
+    color: var(--color-DarkBlue);
+    position: absolute;
+    top: 20px;
+    left: 45%;
+}
+
+main>div.content>div.comment>p{
+    direction: rtl;
+    text-align: center;
+    font-family: var(--font-family-Estedad-Light);
+    font-weight: 200;
+    font-size: 18px;
+    color: var(--color-DarkBlue);
+    position: absolute;
+    top:110px;
+    left: 17.5%;
+}
+main>div.content>div.gym,
+main>div.content>div.pool,
+main>div.content>div.spa,
+main>div.content>div.swimm,
+main>div.content>div.rest,
+main>div.content>div.laun{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+main>div.content>div.gym>img,
+main>div.content>div.pool>img,
+main>div.content>div.spa>img,
+main>div.content>div.swimm>img,
+main>div.content>div.rest>img,
+main>div.content>div.laun>img{
+    width: 1200px;
+    height: 650px;
+    margin: 30px auto;
+}
+
+main>div.content>div.gym>h3,
+main>div.content>div.pool>h3,
+main>div.content>div.spa>h3,
+main>div.content>div.swimm>h3,
+main>div.content>div.rest>h3,
+main>div.content>div.laun>h3{
+    width: 518px; 
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+    background-color: var(--color-white);
+    margin: 20px auto;
+    font-family: var(--font-family-Estedad);
+    font-weight: 300;
+    font-size: 25px;
+    color: var(--color-DarkBlue);
+}
+
+main>div.content>div.gym>h3{
+    position: absolute;
+    top: 833px;
+    left: var(--left-33);
+}
+
+main>div.content>div.pool>h3{
+    position: absolute;
+    top: 1536px;
+    left:var(--left-33) ;
+}
+
+main>div.content>div.spa>h3{
+    position: absolute;
+    top: 2226px;
+    left: var(--left-33);
+}
+
+main>div.content>div.swimm>h3{
+    position: absolute;
+    top: 2934px;
+    left: var(--left-33);
+}
+
+main>div.content>div.rest>h3{
+    position: absolute;
+    top: 3637px;
+    left: var(--left-33);
+}
+
+main>div.content>div.laun>h3{
+    position: absolute;
+    top: 4341px;
+    left: var(--left-33);
+}
