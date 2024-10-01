@@ -121,7 +121,7 @@ footer>div.final-part>div.triangle{
         border-bottom: 45px solid #14274A ;
         border-top: 100px solid  transparent;
         position: absolute;
-        top: 35%;
+        top: 38%;
         left: 44%;
 }
 
@@ -130,7 +130,7 @@ footer>div.final-part>div.information{
     height: 200px;
     background-color: var(--color-DarkBlue);
     position: absolute;
-    top: 62.05%;
+    top: 64%;
 }
 
 footer>div.final-part>div.information>div.first{

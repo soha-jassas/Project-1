@@ -127,36 +127,36 @@ main>div.content>div.laun>h3{
 
 main>div.content>div.gym>h3{
     position: absolute;
-    top: 833px;
+    top: 835px;
     left: var(--left-33);
 }
 
 main>div.content>div.pool>h3{
     position: absolute;
-    top: 1536px;
+    top: 1572px;
     left:var(--left-33) ;
 }
 
 main>div.content>div.spa>h3{
     position: absolute;
-    top: 2226px;
+    top: 2306px;
     left: var(--left-33);
 }
 
 main>div.content>div.swimm>h3{
     position: absolute;
-    top: 2934px;
+    top: 3047px;
     left: var(--left-33);
 }
 
 main>div.content>div.rest>h3{
     position: absolute;
-    top: 3637px;
+    top: 3786px;
     left: var(--left-33);
 }
 
 main>div.content>div.laun>h3{
     position: absolute;
-    top: 4341px;
+    top: 4524px;
     left: var(--left-33);
 }
